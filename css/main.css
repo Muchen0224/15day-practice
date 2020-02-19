@@ -218,7 +218,7 @@ a{
 #header .bottom-bar .nav ul li{
     display: block;
     border-bottom: 1px solid #ccc;
-    margin: 15px;
+    padding: 15px;
     letter-spacing: 1px;
 }
 
@@ -1759,6 +1759,10 @@ margin-bottom: 20px;
     }
     #header .bottom-bar .nav ul li:first-child{
         border: none;
+    }
+    #header .bottom-bar .nav ul li{
+        padding: 0;
+        margin: 15px;
     }
     #header .bottom-bar .nav .drop{
         position: absolute;
