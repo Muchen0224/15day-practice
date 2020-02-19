@@ -1687,22 +1687,20 @@ margin-bottom: 20px;
         position: relative;
     }
     #header .bottom-bar .nav .pages .drop-content .lg-float{
-        width: 25%;
+        width: 21%;
         float: left;
         position: relative;
     }
     #header .bottom-bar .nav .pages .drop-content ul li.coming-soon{
         position: absolute;
-        top: 200px;
-        left: 220px;
+        top: 162px;
+        left: 219px;
     }
     #header .bottom-bar .nav .drop .chair{
         display: block;
         width: 25%;
         float: left;
     }
-
-
 
     #header .bottom-bar .nav .drop .item-wrap{
         float: left;
@@ -1800,8 +1798,8 @@ margin-bottom: 20px;
         content: "";
         background: #5a5a5a;
         position: absolute;
-        left: 15px;
-        top: 34px;
+        left:0px;
+        top: 20px;
     }
 
     #header .bottom-bar .nav>ul>li:hover .drop{
