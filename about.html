@@ -6,317 +6,539 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About us</title>
-    <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/about-ref.css">
+    <link rel="stylesheet" href="css/about.css">
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.js"></script>
+    <script src="js/wow.js"></script>
     <script src="js/main.js"></script>
 </head>
 
 <body>
-    <div id="header">
-        <div class="row">
-            <div class="logo col-1"><img src="https://fakeimg.pl/100x50/"></div>
-            <div class="navigation col-8">
-                <ul class="list-unstyled clearfix">
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Pages<span class="icon-angle-down"></span></a></li>
-                    <li><a href="#">Products<span class="icon-angle-down"></span></a></li>
-                    <li><a href="#">Home</a></li>
-                </ul>
-            </div>
-            <div class="carts col-3">
-                <ul class="list-unstyled clearfix">
-                    <li>
-                        <div class="cart-info">
-                            <div class="title">SHOPPING CART</div>
-                            <div class="chosen">
-                                <span class="vol">3 items</span><span class="total-price">$74.00</span>
+    <div class="body-wrap">
+        <div id="header">
+            <div class="bottom-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="logo">
+                                <a href="#"><img src="https://fakeimg.pl/112x29/"></a>
                             </div>
-                        </div>
-                    </li>
-                    <li class="icon-cart"><a href="#" class="icon-shopping-bag"></a></li>
-                    <li class="search"><a href="#" class="icon-search"></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div id="content">
-        <div class="slider">
-            <h2 class="title">ABOUT US</h2>
-            <div class="path">
-                <p>Home &gt; About us</p>
-            </div>
-        </div>
-        <div class="who">
-            <div class="container">
-                <h3 class="title">WHO WE ARE?</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iste nulla tempora rem consectetur
-                    natus obcaecati itaque modi, explicabo nobis eligendi minima aliquam corrupti dicta excepturi id ex
-                    quisquam quia eum commodi. Provident, porro! Fuga maxime ex autem, perspiciatis odit maiores qui
-                    sapiente, voluptates commodi consectetur voluptatem? Sint, nam fuga.</p>
-                <div class="subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, vel!</div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam corporis quae voluptatibus voluptas,
-                    omnis libero explicabo perspiciatis doloremque minima voluptatum. Optio at, sunt pariatur quaerat
-                    cumque earum sed aperiam alias.</p>
-            </div>
-        </div>
-        <div class="follow-left">
-            <div class="container">
-                <div class="title">Follow Us</div>
-                <ul class="list-unstyled clearfix">
-                    <li><a href="#" class=" icon-twitter"></a></li>
-                    <li><a href="#" class=" icon-facebook"></a></li>
-                    <li><a href="#" class=" icon-gplus"></a></li>
-                    <li><a href="#" class=" icon-youtube"></a></li>
-                    <li><a href="#" class=" icon-linkedin"></a></li>
-                    <li><a href="#" class=" icon-whatsapp"></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="our-team">
-            <div class="container">
-                <h3 class="title">OUR TEAM</h3>
-                <div class="row">
-                    <div class="col-3">
-                        <div class="hover-wrap">
-                            <img src="https://fakeimg.pl/280x280/">
-                            <div class="hover-info">
-                                <ul class="list-unstyled clearfix">
-                                    <li class="icon-twitter"></li>
-                                    <li class="icon-facebook"></li>
-                                    <li class="icon-linkedin"></li>
+                            <ul class="list-unstyled list">
+                                <li class="hamburger hamburger-control">
+                                    <a href="#" class="list-opener">
+                                        <span class="bar"></span>
+                                        <span class="bar small"></span>
+                                        <span class="bar"></span>
+                                    </a>
+                                </li>
+                                <li class="search">
+                                    <a href="#" class="icon-search"></a>
+                                </li>
+                                <li class="like">
+                                    <a href="#" class="icon-heart-empty"></a>
+                                </li>
+                                <li class="cart-with-number">
+                                    <a href="#" class="drop-link icon-shopping-bag"></a>
+                                    <span class="number">3</span>
+                                    <div class="drop">
+                                        <div class="holder">
+                                            <div class="item clearfix">
+                                                <div class="picture"><img src="https://fakeimg.pl/74x74/"></div>
+                                                <div class="item-info">
+                                                    <div class="name">Marvelous Modern 3 Seater</div>
+                                                    <div class="price">&euro;599,00</div>
+                                                    <div class="qty">Qty:1</div>
+                                                </div>
+                                            </div>
+                                            <div class="item clearfix">
+                                                <div class="picture"><img src="https://fakeimg.pl/74x74/"></div>
+                                                <div class="item-info">
+                                                    <div class="name">Marvelous Modern 3 Seater</div>
+                                                    <div class="price">&euro;599,00</div>
+                                                    <div class="qty">Qty:1</div>
+                                                </div>
+                                            </div>
+                                            <div class="item clearfix">
+                                                <div class="picture"><img src="https://fakeimg.pl/74x74/"></div>
+                                                <div class="item-info">
+                                                    <div class="name">Marvelous Modern 3 Seater</div>
+                                                    <div class="price">&euro;599,00</div>
+                                                    <div class="qty">Qty:1</div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="total">
+                                                <div class="row">
+                                                    <span class="title">Sub total</span>
+                                                    <span class="total-price">&euro;799,00</span>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="checkout">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <button></button>
+                                                    </div>
+                                                    <div class="col-6"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart-background"></div>
+                                </li>
+                                <li class="hamburger side-open">
+                                    <a href="#" class="list-opener">
+                                        <span class="bar"></span>
+                                        <span class="bar small"></span>
+                                        <span class="bar"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="nav">
+                                <ul class="list-unstyled clearfix lg-nav-ul">
+                                    <li class="home">
+                                        <a  class="drop-link">
+                                            HOMES<span class=" icon-angle-down"></span>
+                                        </a>
+                                        <div class="drop">
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Homepage1</a></li>
+                                                <li><a href="#">Homepage2</a></li>
+                                                <li><a href="#">Homepage3</a></li>
+                                                <li><a href="#">Homepage4</a></li>
+                                                <li><a href="#">Homepage5</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="products">
+                                        <a  class="drop-link">
+                                            PRODUCTS<span class=" icon-angle-down"></span>
+                                        </a>
+                                        <div id="products" class="drop">
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">PRODUCTS GRID VIEWS</a></li>
+                                                <li><a href="#">PRODUCTS GRID VIEWS2</a></li>
+                                                <li><a href="#">PRODUCTS GRID VIEWS</a></li>
+                                                <li><a href="#">PRODUCTS GRID VIEWS4</a></li>
+                                                <li><a href="#">PRODUCTS GRID VIEWS5</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="pages">
+                                        <a  class="drop-link">
+                                            PAGES<span class=" icon-angle-down"></span>
+                                        </a>
+                                        <div class="drop drop-content">
+                                            <ul class="list-unstyled clearfix">
+                                                <li class="shop-pages lg-float">
+                                                    <a class="sub-drop-link">
+                                                        SHOP PAGES<span class=" icon-angle-down"></span>
+                                                    </a>
+                                                    <div class="sub-drop">
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="pages404 lg-float">
+                                                    <a class="sub-drop-link">
+                                                        404 PAGES<span class=" icon-angle-down"></span>
+                                                    </a>
+                                                    <div class="sub-drop">
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="coming-soon lg-float">
+                                                    <a class="sub-drop-link">
+                                                        COMING SOON<span class=" icon-angle-down"></span>
+                                                    </a>
+                                                    <div class="sub-drop">
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="kitchen lg-float">
+                                                    <a class="sub-drop-link">
+                                                        Kitchen FURNITURE<span class=" icon-angle-down"></span>
+                                                    </a>
+                                                    <div class="sub-drop">
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                            <li><a href="#">Lorem, ipsum.</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="item-wrap">
+                                                    <div class="chair wow fadeInDown" data-wow-delay="0.6s">
+                                                        <img src="https://fakeimg.pl/417x381/">
+                                                        <div class="chair-intro">
+                                                            <div class="title">CHAIR WITH ARMRESTS</div>
+                                                            <div class="rating">
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star checked"></span>
+                                                                <span class="fa fa-star unchecked"></span>
+                                                            </div>
+                                                            <div class="price">
+                                                                <div class="before">$129.00</div>
+                                                                <div class="after">$99.00</div>
+                                                            </div>
+                                                            <div class="hurry">
+                                                                <a href="#">HURRY UP!<span class="icon-angle-right"></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                        <div class="page-background"></div>
+                                    </li>
+                                    <li class="about">
+                                        <a href="#" class="drop-link">
+                                            ABOUT
+                                        </a>
+                                    </li>
+                                    <li class="blog">
+                                        <a  class="drop-link">
+                                            BLOG<span class=" icon-angle-down"></span>
+                                        </a>
+                                        <div id="blog" class="drop">
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">blog1</a></li>
+                                                <li><a href="#">blog2</a></li>
+                                                <li><a href="#">blog3</a></li>
+                                                <li><a href="#">blog4</a></li>
+                                                <li><a href="#">blog5</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="contact">
+                                        <a  class="drop-link">
+                                            CONTACT<span class=" icon-angle-down"></span>
+                                        </a>
+                                        <div id="contact" class="drop">
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">contact1</a></li>
+                                                <li><a href="#">contact2</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="info-wrap">
-                            <div class="name">CLARA WOODEN</div>
-                            <div class="title">DESIGNER</div>
-                            <div class="gray-bar"></div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="hover-wrap">
-                            <img src="https://fakeimg.pl/280x280/">
-                            <div class="hover-info">
-                                <ul class="list-unstyled clearfix">
-                                    <li class="icon-twitter"></li>
-                                    <li class="icon-facebook"></li>
-                                    <li class="icon-linkedin"></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="info-wrap">
-                            <div class="name">CLARA WOODEN</div>
-                            <div class="title">DESIGNER</div>
-                            <div class="gray-bar"></div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="hover-wrap">
-                            <img src="https://fakeimg.pl/280x280/">
-                            <div class="hover-info">
-                                <ul class="list-unstyled clearfix">
-                                    <li class="icon-twitter"></li>
-                                    <li class="icon-facebook"></li>
-                                    <li class="icon-linkedin"></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="info-wrap">
-                            <div class="name">CLARA WOODEN</div>
-                            <div class="title">DESIGNER</div>
-                            <div class="gray-bar"></div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="hover-wrap">
-                            <img src="https://fakeimg.pl/280x280/">
-                            <div class="hover-info">
-                                <ul class="list-unstyled clearfix">
-                                    <li class="icon-twitter"></li>
-                                    <li class="icon-facebook"></li>
-                                    <li class="icon-linkedin"></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="info-wrap">
-                            <div class="name">CLARA WOODEN</div>
-                            <div class="title">DESIGNER</div>
-                            <div class="gray-bar"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="our-workspace">
-            <div class="container">
-                <h3 class="title">OUR WORKSPACE</h3>
+        <div id="content">
+            <div class="slider">
+                <h2 class="title">ABOUT US</h2>
+                <div class="path">
+                    <p>Home &gt; About us</p>
+                </div>
             </div>
-            <div class="slider-bottom">
-                <ul class="list-unstyled work-slider">
-                    <li class="slider-1 clearfix">
-                        <div class="img-holder-left">
-                            <img src="https://fakeimg.pl/548x548/">
-                        </div>
-                        <div class="img-holder-right">
-                            <div class="img-1">
-                                <img src="https://fakeimg.pl/250x308/">
-                            </div>
-                            <div class="img-2">
-                                <img src="https://fakeimg.pl/394x308/">
-                            </div>
-                            <div class="img-3">
-                                <img src="https://fakeimg.pl/650x235/">
-                            </div>
-                        </div>
-                        <div class="cover"></div>
-                    </li>
-                    <li class="slider-1 clearfix">
-                        <div class="img-holder-left">
-                            <img src="https://fakeimg.pl/548x548/">
-                        </div>
-                        <div class="img-holder-right">
-                            <div class="img-1">
-                                <img src="https://fakeimg.pl/250x308/">
-                            </div>
-                            <div class="img-2">
-                                <img src="https://fakeimg.pl/394x308/">
-                            </div>
-                            <div class="img-3">
-                                <img src="https://fakeimg.pl/650x235/">
-                            </div>
-                        </div>
-                        <div class="cover"></div>
-                    </li>
-                    <li class="slider-1 clearfix">
-                        <div class="img-holder-left">
-                            <img src="https://fakeimg.pl/548x548/">
-                        </div>
-                        <div class="img-holder-right">
-                            <div class="img-1">
-                                <img src="https://fakeimg.pl/250x308/">
-                            </div>
-                            <div class="img-2">
-                                <img src="https://fakeimg.pl/394x308/">
-                            </div>
-                            <div class="img-3">
-                                <img src="https://fakeimg.pl/650x235/">
-                            </div>
-                        </div>
-                        <div class="cover"></div>
-                    </li>
-                </ul>
+            <div class="who">
+                <div class="container">
+                    <h3 class="title">WHO WE ARE?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iste nulla tempora rem consectetur
+                        natus obcaecati itaque modi, explicabo nobis eligendi minima aliquam corrupti dicta excepturi id ex
+                        quisquam quia eum commodi. Provident, porro! Fuga maxime ex autem, perspiciatis odit maiores qui
+                        sapiente, voluptates commodi consectetur voluptatem? Sint, nam fuga.</p>
+                    <div class="subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, vel!</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam corporis quae voluptatibus voluptas,
+                        omnis libero explicabo perspiciatis doloremque minima voluptatum. Optio at, sunt pariatur quaerat
+                        cumque earum sed aperiam alias.</p>
+                </div>
             </div>
-        </div>
-    </div>
-    <div id="footer">
-        <div class="up">
-            <div class="container">
-                <div class="info">
+            <div class="follow-left">
+                <div class="container">
+                    <div class="title">Follow Us</div>
+                    <ul class="list-unstyled clearfix">
+                        <li><a href="#" class=" icon-twitter"></a></li>
+                        <li><a href="#" class=" icon-facebook"></a></li>
+                        <li><a href="#" class=" icon-gplus"></a></li>
+                        <li><a href="#" class=" icon-youtube"></a></li>
+                        <li><a href="#" class=" icon-linkedin"></a></li>
+                        <li><a href="#" class=" icon-whatsapp"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="our-team">
+                <div class="container">
+                    <h3 class="title">OUR TEAM</h3>
                     <div class="row">
                         <div class="col-3">
-                            <div class="logo"><img src="https://fakeimg.pl/100x50/"></div>
-                            <div class="intro">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, pariatur
-                                    perspiciatis! Cumque.</p>
+                            <div class="hover-wrap">
+                                <img src="https://fakeimg.pl/280x280/">
+                                <div class="hover-info">
+                                    <ul class="list-unstyled clearfix">
+                                        <li class="icon-twitter"></li>
+                                        <li class="icon-facebook"></li>
+                                        <li class="icon-linkedin"></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="address">
-                                <div class="icon  icon-location"></div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, omnis.</p>
-                            </div>
-                            <div class="phone">
-                                <label class="icon  icon-phone"></label>
-                                <a href="tel:+1-(555)-333-22-11">+1 (555) 333 22 11</a>
-                            </div>
-                            <div class="email">
-                                <label class="icon icon-mail"></label>
-                                <a href="mailto:info@schon.chair">info@schon.chair</a>
+                            <div class="info-wrap">
+                                <div class="name">CLARA WOODEN</div>
+                                <div class="title">DESIGNER</div>
+                                <div class="gray-bar"></div>
                             </div>
                         </div>
-                        <div class="col-6 info-center">
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="title">categories</div>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Chairs</a></li>
-                                        <li><a href="#">Sofas</a></li>
-                                        <li><a href="#">Living</a></li>
-                                        <li><a href="#">Bedroom</a></li>
-                                        <li><a href="#">Tables</a></li>
-                                        <li><a href="#">New</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-4">
-                                    <div class="title">categories</div>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Chairs</a></li>
-                                        <li><a href="#">Sofas</a></li>
-                                        <li><a href="#">Living</a></li>
-                                        <li><a href="#">Bedroom</a></li>
-                                        <li><a href="#">Tables</a></li>
-                                        <li><a href="#">New</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-4">
-                                    <div class="title">categories</div>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Chairs</a></li>
-                                        <li><a href="#">Sofas</a></li>
-                                        <li><a href="#">Living</a></li>
-                                        <li><a href="#">Bedroom</a></li>
-                                        <li><a href="#">Tables</a></li>
-                                        <li><a href="#">New</a></li>
+                        <div class="col-3">
+                            <div class="hover-wrap">
+                                <img src="https://fakeimg.pl/280x280/">
+                                <div class="hover-info">
+                                    <ul class="list-unstyled clearfix">
+                                        <li class="icon-twitter"></li>
+                                        <li class="icon-facebook"></li>
+                                        <li class="icon-linkedin"></li>
                                     </ul>
                                 </div>
                             </div>
+                            <div class="info-wrap">
+                                <div class="name">CLARA WOODEN</div>
+                                <div class="title">DESIGNER</div>
+                                <div class="gray-bar"></div>
+                            </div>
                         </div>
-                        <div class="col-3 info-right">
-                            <div class="signup">
-                                <div class="title">Sign with Newsletter</div>
-                                <div class="sub-email">
-                                    <div class="sub-text" contenteditable="true" placeholder="Your e-mail"></div>
-                                    <div class="subscribe">
-                                        <p>Subscribe</p>
+                        <div class="col-3">
+                            <div class="hover-wrap">
+                                <img src="https://fakeimg.pl/280x280/">
+                                <div class="hover-info">
+                                    <ul class="list-unstyled clearfix">
+                                        <li class="icon-twitter"></li>
+                                        <li class="icon-facebook"></li>
+                                        <li class="icon-linkedin"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="info-wrap">
+                                <div class="name">CLARA WOODEN</div>
+                                <div class="title">DESIGNER</div>
+                                <div class="gray-bar"></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="hover-wrap">
+                                <img src="https://fakeimg.pl/280x280/">
+                                <div class="hover-info">
+                                    <ul class="list-unstyled clearfix">
+                                        <li class="icon-twitter"></li>
+                                        <li class="icon-facebook"></li>
+                                        <li class="icon-linkedin"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="info-wrap">
+                                <div class="name">CLARA WOODEN</div>
+                                <div class="title">DESIGNER</div>
+                                <div class="gray-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-workspace">
+                <div class="container">
+                    <h3 class="title">OUR WORKSPACE</h3>
+                </div>
+                <div class="slider-bottom">
+                    <ul class="list-unstyled work-slider">
+                        <li class="slider-1 clearfix">
+                            <div class="img-holder-left">
+                                <img src="https://fakeimg.pl/548x548/">
+                            </div>
+                            <div class="img-holder-right">
+                                <div class="img-1">
+                                    <img src="https://fakeimg.pl/250x308/">
+                                </div>
+                                <div class="img-2">
+                                    <img src="https://fakeimg.pl/394x308/">
+                                </div>
+                                <div class="img-3">
+                                    <img src="https://fakeimg.pl/650x235/">
+                                </div>
+                            </div>
+                            <div class="cover"></div>
+                        </li>
+                        <li class="slider-1 clearfix">
+                            <div class="img-holder-left">
+                                <img src="https://fakeimg.pl/548x548/">
+                            </div>
+                            <div class="img-holder-right">
+                                <div class="img-1">
+                                    <img src="https://fakeimg.pl/250x308/">
+                                </div>
+                                <div class="img-2">
+                                    <img src="https://fakeimg.pl/394x308/">
+                                </div>
+                                <div class="img-3">
+                                    <img src="https://fakeimg.pl/650x235/">
+                                </div>
+                            </div>
+                            <div class="cover"></div>
+                        </li>
+                        <li class="slider-1 clearfix">
+                            <div class="img-holder-left">
+                                <img src="https://fakeimg.pl/548x548/">
+                            </div>
+                            <div class="img-holder-right">
+                                <div class="img-1">
+                                    <img src="https://fakeimg.pl/250x308/">
+                                </div>
+                                <div class="img-2">
+                                    <img src="https://fakeimg.pl/394x308/">
+                                </div>
+                                <div class="img-3">
+                                    <img src="https://fakeimg.pl/650x235/">
+                                </div>
+                            </div>
+                            <div class="cover"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="up">
+                <div class="container">
+                    <div class="info">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="logo"><img src="https://fakeimg.pl/100x50/"></div>
+                                <div class="intro">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, pariatur
+                                        perspiciatis! Cumque.</p>
+                                </div>
+                                <div class="address">
+                                    <div class="icon  icon-location"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, omnis.</p>
+                                </div>
+                                <div class="phone">
+                                    <label class="icon  icon-phone"></label>
+                                    <a href="tel:+1-(555)-333-22-11">+1 (555) 333 22 11</a>
+                                </div>
+                                <div class="email">
+                                    <label class="icon icon-mail"></label>
+                                    <a href="mailto:info@schon.chair">info@schon.chair</a>
+                                </div>
+                            </div>
+                            <div class="col-6 info-center">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="title">categories</div>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Chairs</a></li>
+                                            <li><a href="#">Sofas</a></li>
+                                            <li><a href="#">Living</a></li>
+                                            <li><a href="#">Bedroom</a></li>
+                                            <li><a href="#">Tables</a></li>
+                                            <li><a href="#">New</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="title">categories</div>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Chairs</a></li>
+                                            <li><a href="#">Sofas</a></li>
+                                            <li><a href="#">Living</a></li>
+                                            <li><a href="#">Bedroom</a></li>
+                                            <li><a href="#">Tables</a></li>
+                                            <li><a href="#">New</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="title">categories</div>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Chairs</a></li>
+                                            <li><a href="#">Sofas</a></li>
+                                            <li><a href="#">Living</a></li>
+                                            <li><a href="#">Bedroom</a></li>
+                                            <li><a href="#">Tables</a></li>
+                                            <li><a href="#">New</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="follow-right">
-                                <div class="title">Follow Us</div>
-                                <ul class="list-unstyled clearfix">
-                                    <li><a href="#" class=" icon-whatsapp"></a></li>
-                                    <li><a href="#" class=" icon-linkedin"></a></li>
-                                    <li><a href="#" class=" icon-youtube"></a></li>
-                                    <li><a href="#" class=" icon-gplus"></a></li>
-                                    <li><a href="#" class=" icon-facebook"></a></li>
-                                    <li><a href="#" class=" icon-twitter"></a></li>
-                                </ul>
+                            <div class="col-3 info-right">
+                                <div class="signup">
+                                    <div class="title">Sign with Newsletter</div>
+                                    <div class="sub-email">
+                                        <div class="sub-text" contenteditable="true" placeholder="Your e-mail"></div>
+                                        <div class="subscribe">
+                                            <p>Subscribe</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="follow-right">
+                                    <div class="title">Follow Us</div>
+                                    <ul class="list-unstyled clearfix">
+                                        <li><a href="#" class=" icon-whatsapp"></a></li>
+                                        <li><a href="#" class=" icon-linkedin"></a></li>
+                                        <li><a href="#" class=" icon-youtube"></a></li>
+                                        <li><a href="#" class=" icon-gplus"></a></li>
+                                        <li><a href="#" class=" icon-facebook"></a></li>
+                                        <li><a href="#" class=" icon-twitter"></a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="bottom">
-            <div class="container clearfix">
-                <div class="copyright">
-                    <p>&copy;<span>sch&ouml;n.</span> -All rights Resversed</p>
+            <div class="bottom">
+                <div class="container clearfix">
+                    <div class="copyright">
+                        <p>&copy;<span>sch&ouml;n.</span> -All rights Resversed</p>
+                    </div>
+                    <div class="pay-method">
+                        <ul class="list-unstyled clearfix">
+                            <li><img src="https://fakeimg.pl/60x30/"></li>
+                            <li><img src="https://fakeimg.pl/60x30/"></li>
+                            <li><img src="https://fakeimg.pl/60x30/"></li>
+                            <li><img src="https://fakeimg.pl/60x30/"></li>
+                            <li><img src="https://fakeimg.pl/60x30/"></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="pay-method">
-                    <ul class="list-unstyled clearfix">
-                        <li><img src="https://fakeimg.pl/60x30/"></li>
-                        <li><img src="https://fakeimg.pl/60x30/"></li>
-                        <li><img src="https://fakeimg.pl/60x30/"></li>
-                        <li><img src="https://fakeimg.pl/60x30/"></li>
-                        <li><img src="https://fakeimg.pl/60x30/"></li>
-                    </ul>
+            </div>
+        </div>
+        <div class="search-popup">
+            <div class="holder">
+                <div class="row">
+                    <form action="#">
+                        <fieldset>
+                            <input type="text" placeholder="Search...">
+                            <span class="icon-mic-outline"></span>
+                            <span class=" icon-search"></span>
+                        </fieldset>
+                    </form>
+                    <a href="#" class="close icon-cancel"></a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,76 @@
+#header .bottom-bar .like a,#header .bottom-bar .cart-with-number a{
+    color: black;
+    font-size: 22px;
+    position: relative;
+    top: -2px;
+    text-decoration: none;
+}
+
+#header .bottom-bar .cart-with-number{
+    position: relative;
+    top: -3px;
+}
+
+#header .bottom-bar .cart-with-number .number{
+    position: absolute;
+    top: 14px;
+    left: 17px;
+    width: 17px;
+    height: 17px;
+    font-size: 13px;
+    background-color: black;
+    display: block;
+    color: white;
+    border-radius: 9px;
+    text-align: center;
+}
+
+#header .bottom-bar .cart-with-number .drop{
+    position: absolute;
+    width: 300px;
+    left: -230px;
+    top: 55px;
+    z-index: 1;
+}
+
+#header .bottom-bar .cart-with-number .cart-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+}
+
+#header .bottom-bar .cart-with-number .drop .holder{
+    background-color: white;
+    padding: 20px 7px;
+}
+
+#header .bottom-bar .cart-with-number .drop .holder .item{
+    margin-bottom: 17px;
+}
+
+#header .bottom-bar .cart-with-number .drop .holder .picture{
+    width: 74px;
+    float: left;
+    margin-right: 10px;
+}
+
+#header .bottom-bar .cart-with-number .drop .holder .item-info{
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#header .bottom-bar .cart-with-number .drop .holder .item-info .price{
+    color: #010101;
+}
+
+#header .bottom-bar .cart-with-number .drop .holder .item-info .qty{
+    color: #757575;
+}
+
+#header .bottom-bar .side-open{
+    margin-left: 6px;
+}
