@@ -658,7 +658,7 @@
         top: -9px;
         left:unset;
     }
-    #header .bottom-bar .nav ul{
+    #header .bottom-bar .nav>ul{
         width: fit-content;
         margin-left: auto;
     }

@@ -1990,20 +1990,20 @@ margin-bottom: 20px;
         visibility: hidden;
     }
 
-    #header .bottom-bar .nav ul li .drop-link:hover + .drop{
+    #header .bottom-bar .nav ul li:hover  .drop{
         opacity: 1;
         visibility: visible;
     }
 
-    #header .bottom-bar .nav ul li .drop-link:hover{
+    #header .bottom-bar .nav ul li:hover .drop-link{
         color: #ff6060;
     }
 
-    #header .bottom-bar .nav ul li.pages .drop-link:hover ~ .page-background{
+    #header .bottom-bar .nav ul .pages:hover  .page-background{
         display: block;
     }
 
-    #header .bottom-bar .nav ul li.pages .drop-link:hover {
+    #header .bottom-bar .nav ul .pages:hover .drop-link {
         color: white;
     }
 
