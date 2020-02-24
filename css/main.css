@@ -1824,7 +1824,7 @@ margin-bottom: 20px;
     #promote .holder{
         width: 70%;
     }
-    #header .bottom-bar .list .hamburger{
+    #header .bottom-bar .list .hamburger-control{
         display: none;
     }
     #header .bottom-bar .nav{
@@ -1984,19 +1984,26 @@ margin-bottom: 20px;
         top: 20px;
     }
 
-    #header .bottom-bar .nav>ul>li:hover .drop{
+    #header .bottom-bar .nav .drop{
         max-height: 999px;
+        opacity: 0;
+        visibility: hidden;
     }
 
-    #header .bottom-bar .nav>ul>li:hover .drop-link{
+    #header .bottom-bar .nav ul li .drop-link:hover + .drop{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #header .bottom-bar .nav ul li .drop-link:hover{
         color: #ff6060;
     }
 
-    #header .bottom-bar .nav>ul>li.pages:hover .page-background{
+    #header .bottom-bar .nav ul li.pages .drop-link:hover ~ .page-background{
         display: block;
     }
 
-    #header .bottom-bar .nav>ul>li.pages:hover .drop-link{
+    #header .bottom-bar .nav ul li.pages .drop-link:hover {
         color: white;
     }
 

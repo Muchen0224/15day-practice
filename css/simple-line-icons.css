@@ -236,9 +236,9 @@
 .icon-emotsmile:before {
   content: "\e021";
 }
-.icon-phone:before {
+/* .icon-phone:before {
   content: "\e600";
-}
+} */
 .icon-call-end:before {
   content: "\e048";
 }

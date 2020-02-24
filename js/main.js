@@ -18,6 +18,8 @@ wow.init();
 
 
 $(document).ready(function(e){
+    //home-page
+
     //promote
     $('#promote').addClass('active');
 
@@ -202,7 +204,7 @@ $(document).ready(function(e){
         }
     });
 
-    //
+    // icon adjust
     $('#content .products .tab-content .hover-wrap .hover-info ul li button').click(function(e){
         $(e.currentTarget).toggleClass('red');
     });
@@ -213,5 +215,79 @@ $(document).ready(function(e){
 
     $('.hover-info ul li.like button').click(function(e){
         $(e.currentTarget).toggleClass('icon-heart icon-heart-empty');
+    });
+
+    //About page
+
+    //cart-detail
+    $('#header .bottom-bar .cart-with-number a').click(function(e){
+        $(e.currentTarget).toggleClass('show');
+        $(e.currentTarget).siblings('span').toggleClass('show');
+        $(e.currentTarget).siblings('.drop').toggleClass('show');
+        $(e.currentTarget).siblings('.cart-background').toggleClass('show');
+    });
+    $('#header .bottom-bar .cart-with-number .cart-background').click(function(e){
+        $(e.currentTarget).removeClass('show');
+        $(e.currentTarget).siblings('span').removeClass('show');
+        $(e.currentTarget).siblings('a').removeClass('show');
+        $(e.currentTarget).siblings('.drop').removeClass('show');
+    });
+
+    //side-bar
+    $('.side-open-link').click(function(e){
+        $('.side-control').toggleClass('active');
+        $('.side-bar-background').addClass('active');
+    });
+
+    $('.side-bar-background').click(function(e){
+        $(e.currentTarget).removeClass('active');
+        $('.side-control').toggleClass('active');
+    });
+
+    $('.side-menu .close a').click(function(e){
+        $('.side-control').toggleClass('active');
+        $('.side-bar-background').removeClass('active');
+    });
+
+    $('.work-slider').slick({
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '10%',
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '10%',
+                infinite: true,
+                dots: true
+                }
+            },
+            {
+            breakpoint: 768,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '20%',
+                }
+            },
+            {
+            breakpoint: 480,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '20%',
+                dots: false
+                }
+            }
+        ]
     });
 });
