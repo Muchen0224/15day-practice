@@ -658,6 +658,10 @@
         top: -9px;
         left:unset;
     }
+    #header .bottom-bar .nav ul{
+        width: fit-content;
+        margin-left: auto;
+    }
     #content .our-workspace .work-slider .slider-1 .img-holder-right .img-1{
         width: 38%;
     }
