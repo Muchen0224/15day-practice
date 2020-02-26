@@ -127,6 +127,15 @@ button{
     text-align: right;
     position: relative;
     top: 1px;
+    transition: 0.5s all;
+}
+
+#header .bottom-bar .list li.hamburger a:hover{
+    border-color: #ff6060;
+}
+
+#header .bottom-bar .list li.hamburger a:hover span{
+    background-color: #ff6060;
 }
 
 #header .bottom-bar .list li.hamburger a .bar{

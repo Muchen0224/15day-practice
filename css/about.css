@@ -12,6 +12,11 @@
     position: relative;
     top: -2px;
     text-decoration: none;
+    transition: 0.5s all;
+}
+
+#header .bottom-bar .like a:hover,#header .bottom-bar .cart-with-number a:hover{
+    color: #ff6060;
 }
 
 #header .bottom-bar .cart-with-number a{
@@ -397,6 +402,16 @@
     font-weight: 200;
 }
 
+#content .slider .path a{
+    color: #383838;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+#content .slider .path a:hover{
+    color: #ff6060;
+}
+
 #content .who{
     margin-top: 65px;
     color: #494949;
@@ -494,9 +509,18 @@
     width: 30px;
     height: 30px;
     background-color: #494949;
-    color: white;
     border-radius: 15px;
     text-align: center;
+}
+
+#content .our-team .hover-wrap .hover-info ul li a{
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#content .our-team .hover-wrap .hover-info ul li a:hover{
+    color: #ff6060;
 }
 
 #content .our-team .hover-wrap .hover-info ul li:before{
@@ -504,7 +528,7 @@
     top: 2px;
 }
 
-#content .our-team .hover-wrap .hover-info ul li.icon-facebook{
+#content .our-team .hover-wrap .hover-info ul li:nth-child(2){
     margin: 0 5px;
 }
 

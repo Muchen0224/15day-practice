@@ -1,0 +1,199 @@
+#content .contact-left .intro{
+    margin-top: 70px;
+    color: #383838;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#content .contact-left .intro .title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#content .contact-left .intro p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+#content .contact-left .contact-info{
+    color: #383838;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 50px;
+}
+
+#content .contact-left .contact-info label{
+    font-weight: 600;
+    display: block;
+}
+
+#content .contact-left .contact-info p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#content .contact-left .contact-info a{
+    color: #383838;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+#content .contact-right .title{
+    color: #383838;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#content .contact-right .form-control{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #383838;
+    width: 100%;
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px 33px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+#content .contact-right textarea.form-control{
+    height: 90px;
+}
+
+#content .contact-right button{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    border: 1px solid black;
+    transition: 0.5s all;
+}
+
+#content .contact-right button:hover{
+    background-color: white;
+    color: black;
+}
+
+#content .map{
+    margin-bottom: 80px;
+}
+
+#content .map iframe{
+    border: 0;
+    width: 100%;
+}
+
+#footer .up{
+    background-color: white;
+}
+
+#footer .up .title{
+    font-size: 16px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#footer .up a{
+    text-decoration: none;
+    color: #868686;
+    font-size: 14px;
+    transition: 0.5s all;
+}
+
+#footer .up a:hover{
+    color: #ff6060;
+}
+
+#footer .up .item-link .lg-left>div{
+    margin-bottom: 30px;
+}
+
+#footer .up .item-link .lg-right .logo{
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+#footer .up .item-link .lg-right .contact-info .address{
+    position: relative;
+    color: #a0a0a0;
+    font-size: 14px;
+}
+
+#footer .up .item-link .lg-right .contact-info .address .icon{
+    position: absolute;
+}
+
+#footer .up .item-link .lg-right .contact-info .address p{
+    padding-left: 25px;
+}
+
+#footer .up .item-link .lg-right .contact-info .phone,#footer .up .item-link .lg-right .email{
+    color: #a0a0a0;
+}
+
+#footer .bottom .row{
+    justify-content: center;
+}
+
+#footer .bottom .row .pay-method{
+    width: 100%;
+}
+
+#footer .bottom .row .pay-method ul{
+    width: fit-content;
+}
+
+#footer .bottom .row .copyright{
+    width: 100%;
+}
+
+@media(min-width:768px){
+    #content .contact-wrap{
+        margin-top: 80px;
+    }
+    #content .contact-wrap .contact-left .intro{
+        margin-top: 0px;
+    }
+    #content .contact-wrap .contact-left .contact-info ul li{
+        float: left;
+        width: 33.33%;
+    }
+    #footer .up .item-link .lg-left>div{
+        float: left;
+        width: 25%;
+    }
+    #footer .up .item-link .lg-right{
+        text-align: right;
+    }
+    #footer .up .item-link ul li{
+        line-height: 25px;
+    }
+    #footer .up .item-link .lg-right .contact-info .address .icon{
+        right: 0;
+    }
+    #footer .up .item-link .lg-right .contact-info .address p{
+        padding: 0 25px 0 0;
+    }
+    #footer .up .item-link .lg-right .contact-info .phone label , #footer .up .item-link .lg-right .contact-info .email label{
+        float: right;
+        margin: 0px;
+    }
+    #footer .up .item-link .lg-right .contact-info .phone label{
+        position: relative;
+        top: 3px;
+    }
+}
+
+@media(min-width:1024px){
+    #content .contact-wrap{
+        margin-bottom: 80px;
+    }
+}
