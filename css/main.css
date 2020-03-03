@@ -1863,6 +1863,9 @@ margin-bottom: 20px;
     #header .bottom-bar .nav .drop ul{
         border: 1px solid #cbcbcb;
     }
+    #header .bottom-bar .nav .blog .drop ul{
+        width: 210px;
+    }
     #header .bottom-bar .nav .sub-drop ul{
         border: none;
     }
@@ -2112,7 +2115,7 @@ margin-bottom: 20px;
     #header .bottom-bar .nav{
         left:267px
     }
-    #header .bottom-bar .nav ul{
+    #header .bottom-bar .nav .lg-nav-ul{
         float: right;
         width: auto;
     }

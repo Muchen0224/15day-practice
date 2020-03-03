@@ -458,6 +458,11 @@
 #content .follow ul li a{
     font-size: 14px;
     color: #868686;
+    text-decoration: none;
+}
+
+#content .follow ul li a:hover{
+    color: #ff6060;
 }
 
 #content .our-team{

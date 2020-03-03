@@ -58,7 +58,7 @@ $(document).ready(function(e){
     });
 
     //search pop-up
-    $('.bottom-bar .search').click(function(e){
+    $('.bottom-bar .search , .slider .search a, .row.top .search a').click(function(e){
         $('.search-popup').addClass('active');
     });
     $('.search-popup .close').click(function(e){
@@ -290,4 +290,7 @@ $(document).ready(function(e){
             }
         ]
     });
+
+    //Blog
+
 });
