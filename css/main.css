@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 img{
     width: 100%;
     height: auto;
@@ -194,12 +198,13 @@ button{
 }
 
 .search-popup .holder .row form input{
-    width: 74%;
+    width: 71%;
     font-size: 30px;
     border: none;
     border-left: 1px solid #ccc;
     padding-left: 9px;
     outline: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .search-popup .holder form span{
@@ -295,9 +300,14 @@ button{
     letter-spacing: none;
 }
 
+#content .col-12{
+    padding: 0 5px;
+}
+
 #content .frame-up .new{
     position: relative;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 #content .frame-up .new .new-intro{
@@ -317,19 +327,20 @@ button{
     max-width: 100%;
     color: white;
     padding: 2px 8px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #content .frame-up .new .new-intro .text .title{
     letter-spacing: 2px;
     background-color: #535353;
     font-weight: 500;
-    width: 215px;
+    width: 225px;
     padding: 5px 7px;
     font-size: 12px;
 }
 
 #content .frame-up .new .new-intro .text .subtitle{
-    font-size: 50px;
+    font-size: 43px;
     font-weight: 300;
 }
 
@@ -339,6 +350,7 @@ button{
 
 #content .frame-up .new .new-intro .text p{
     font-size: 12px;
+    margin: 0px;
 }
 
 #content .frame-up .new .new-intro .text .price{
@@ -357,6 +369,7 @@ button{
     left: 0;
     right: 0;
     bottom: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #content .frame-up .sofa .sofa-intro .title{
@@ -420,7 +433,7 @@ button{
 #content .frame-up .sofa .sofa-intro .shop-now a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     transition: 0.5s all;
 }
 
@@ -431,7 +444,7 @@ button{
 #content .frame-up .sofa .sofa-intro .shop-now a span{
     display: inline-block;
     margin-left: 15px;
-    width: 30px;
+    width: 23px;
     border: 1px solid;
     border-radius: 15px;
     text-align: center;
@@ -448,6 +461,7 @@ button{
     left: 0;
     right: 0;
     bottom: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #content .frame-up .bag .bag-intro .title{
@@ -456,8 +470,10 @@ button{
     right: 30px;
     font-size: 18px;
     letter-spacing: 2px;
-    color: #9b9b9b;
+    color: #939393;
     text-align: right;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
 }
 
 #content .frame-up .bag .bag-intro .rating{
@@ -477,8 +493,8 @@ button{
 
 #content .frame-up .bag .bag-intro .price{
     position: absolute;
-    top: 225px;
-    right: 30px;
+    bottom: 13%;
+    right: 7px;
     font-size: 25px;
     color: #95291a;
     font-weight: 500;
@@ -488,8 +504,8 @@ button{
 
 #content .frame-up .bag .bag-intro .shop-now{
     position: absolute;
-    bottom: 50px;
-    right: 30px;
+    bottom: 5%;
+    right: 18px;
     background-color: #2e2c32;
     color: white;
     padding: 0px 7px;
@@ -504,6 +520,7 @@ button{
 #content .frame-up .bag .bag-intro .shop-now a{
     color: white;
     text-decoration: none;
+    font-size: 14px;
 }
 
 #content .frame-up .chair{
@@ -517,6 +534,7 @@ button{
     left: 0;
     right: 0;
     bottom: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #content .frame-up .chair .chair-intro .title{
@@ -600,6 +618,7 @@ button{
     left: 0;
     right: 0;
     bottom: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #content .frame-down .lg-left .doing .doing-intro .title{
@@ -642,7 +661,7 @@ button{
     border-radius: 12px;
     border: 1px solid;
     text-align: center;
-    background-color: #bed18a;
+    background-color: #bed189;
 }
 
 #content .frame-down .lg-left .lamp{
@@ -656,13 +675,14 @@ margin-bottom: 20px;
     left: 0;
     right: 0;
     bottom: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #content .frame-down .lg-left .lamp .lamp-intro .title{
     position: absolute;
     top: 20px;
     right: 10px;
-    color: #535353;
+    color: #b7b7b7;
     letter-spacing: 3px;
 }
 
@@ -670,10 +690,11 @@ margin-bottom: 20px;
     position: absolute;
     top: 50px;
     right: 10px;
-    color: black;
     letter-spacing: 3px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
+    color: #868686;
+    text-align: right;
 }
 
 #content .frame-down .lg-left .lamp .lamp-intro .shop-now{
@@ -702,12 +723,16 @@ margin-bottom: 20px;
     text-align: center;
 }
 
+#content .frame-down .lg-right{
+    overflow: hidden;
+}
+
 #content .frame-down .lg-right .fabric{
     position: relative;
 }
 
-#content .frame-down .lg-right .slick-slide img{
-    width: 720px;
+#content .frame-down .lg-right .slick-slide{
+    margin: 0 10px;
 }
 
 #content .frame-down .lg-right .fabric .fabric-intro{
@@ -716,6 +741,7 @@ margin-bottom: 20px;
     left: 0;
     right: 0;
     bottom: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #content .frame-down .lg-right .fabric .fabric-intro .title{
@@ -775,7 +801,6 @@ margin-bottom: 20px;
 }
 
 #content .products{
-    margin-bottom: 25px;
     height: 550px;
     position: relative;
 }
@@ -785,15 +810,19 @@ margin-bottom: 20px;
     position: relative;
 }
 
+#content .products .tab-nav ul{
+    margin-left: -9px;
+}
+
 #content .products .slick-prev,#content .products .slick-next{
     position: absolute;
     top: -39px;
     left: auto;
-    right: 10px;
+    right: -3px;
 }
 
 #content .products .slick-prev{
-    right: 43px;
+    right: 31px;
 }
 
 #content .products .slick-prev:before{
@@ -815,7 +844,7 @@ margin-bottom: 20px;
     border-radius: 19px;
     background-color: #eeeeee;
     position: absolute;
-    right: 3px;
+    right: -9px;
     top: -9px;
 }
 
@@ -903,13 +932,20 @@ margin-bottom: 20px;
 
 #content .products .tab-content .k .info .price{
     font-size: 23px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-#content .products .tab-content .hover-wrap{
+#content  .hover-wrap{
     position: relative;
 }
 
-#content .products .tab-content .hover-wrap .hover-info{
+#content  .hover-wrap>a{
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+
+#content .picture  .hover-wrap .hover-info{
     width: 80%;
     padding: 2px;
     position: absolute;
@@ -920,21 +956,21 @@ margin-bottom: 20px;
     transform: translate(-50%, 50%);
 }
 
-#content .products .tab-content .hover-wrap:hover .hover-info{
+#content  .hover-wrap:hover .hover-info{
     opacity: 1;
 }
 
-#content .products .tab-content .hover-wrap .hover-info ul{
+#content  .hover-wrap .hover-info ul{
     line-height: 2.5;
     text-align: center;
 }
 
-#content .products .tab-content .hover-wrap .hover-info ul li{
+#content  .hover-wrap .hover-info ul li{
     float: left;
     display: inline-block;
 }
 
-#content .products .tab-content .hover-wrap .hover-info ul li button{
+#content  .hover-wrap .hover-info ul li button{
     color: #8a8a8a;
     text-decoration: none;
     transition: 0.5s all;
@@ -942,39 +978,39 @@ margin-bottom: 20px;
     outline: none;
 }
 
-#content .products .tab-content .hover-wrap .hover-info ul li button.red{
+#content  .hover-wrap .hover-info ul li button.red{
     color: #ff6060;
 }
 
-#content .products .tab-content .hover-wrap .hover-info ul li a:hover{
+#content  .hover-wrap .hover-info ul li a:hover{
     color: #ff6060;
 }
 
-#content .products .tab-content .hover-wrap .hover-info ul li.add-to-cart{
+#content .hover-wrap .hover-info ul li.add-to-cart{
     width: 33.33%;
     background-color: white;
 }
 
-#content .products .tab-content .hover-wrap .hover-info ul li.like,#content .products .tab-content .hover-wrap .hover-info ul li.detail{
+#content  .hover-wrap .hover-info ul li.like,#content  .hover-wrap .hover-info ul li.detail{
     width: 33.33%;
     background-color: white;
 }
 
-#content .products .tab-content .hover-wrap .hover-info ul li.like{
+#content  .hover-wrap .hover-info ul li.like{
     height: 40px;
 }
 
-#content .products .tab-content .hover-wrap .hover-info ul li.like:after{
+#content  .hover-wrap .hover-info ul li.like:after{
     content: "|";
     position: relative;
-    right: -14px;
+    right: -11px;
     color: #ccc6c6;
 }
 
-#content .products .tab-content .hover-wrap .hover-info ul li.like:before{
+#content  .hover-wrap .hover-info ul li.like:before{
     content: "|";
     position: relative;
-    left: -14px;
+    left: -9px;
     color: #ccc6c6;
 }
 
@@ -991,13 +1027,31 @@ margin-bottom: 20px;
     position: relative;
 }
 
+#content .products .tab-content .k .info{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#content .products .tab-content .k .info .name a{
+    color:#8a8a8a;
+    text-decoration: none;
+    transition: 0.5s all;
+    outline: none;
+    border: none;
+}
+
+#content .products .tab-content .k .info .name a:hover{
+    color: #ff6060;
+}
+
 #content .products .tab-content .k .discount{
     position: absolute;
     top: 30px;
     left: 0px;
-    background-color: #8ad48a;
     color: white;
-    padding: 5px;
+    background: #b2cc29;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 5px;
 }
 
 #content .other-goods{
@@ -1013,9 +1067,10 @@ margin-bottom: 20px;
     top: 35px;
     left: 30px;
     letter-spacing: 5px;
-    color: #dbdbdb;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
+    color: #b7b7b7;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #content .other-goods .subtitle{
@@ -1025,7 +1080,8 @@ margin-bottom: 20px;
     font-size: 16px;
     letter-spacing: 5px;
     color: #535353;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 #content .other-goods .view{
@@ -1052,6 +1108,7 @@ margin-bottom: 20px;
     height: 22px;
     border-radius: 20px;
     display: inline-block;
+    margin-left: 6px;
 }
 
 .icon-angle-right:before {
@@ -1068,23 +1125,37 @@ margin-bottom: 20px;
     font-size: 26px;
     font-weight: 700;
     position: relative;
+    color: #3a3a3a;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #content .best-seller .picture{
     position: relative;
 }
 
+#content .best-seller .info .name a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: none;
+}
+
+#content .best-seller .info .name a:hover{
+    color: #ff6060;
+}
+
 #content .best-seller .picture .tag{
     position: absolute;
-    top: 50px;
+    top: 11px;
     left: 0px;
 }
 
 #content .best-seller .picture .tag .discount{
-    background-color: #8ad48a;
-    padding: 2px 3px;
     color: white;
     font-weight: 700;
+    background: #b2cc29;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 5px;
 }
 
 #content .best-seller .picture .tag .newtag{
@@ -1093,79 +1164,8 @@ margin-bottom: 20px;
     padding: 0px 5px;
     font-weight: 700;
     display: inline-block;
-}
-
-#content .best-seller .hover-wrap{
-    position: relative;
-}
-
-#content .best-seller  .hover-wrap .hover-info{
-    padding: 2px;
-    position: absolute;
-    opacity: 0;
-    transition: 0.3s all;
-    left: 50%;
-    bottom: 20%;
-    transform: translate(-50%, 50%);
-    width: 80%;
-}
-
-#content .best-seller  .hover-wrap .hover-info ul li.like{
-    height: 40px;
-}
-
-#content .best-seller  .hover-wrap .hover-info ul li.like:after{
-    content: "|";
-    position: relative;
-    right: -14px;
-    color: #ccc6c6;
-}
-
-#content .best-seller  .hover-wrap .hover-info ul li.like:before{
-    content: "|";
-    position: relative;
-    left: -14px;
-    color: #ccc6c6;
-}
-
-#content .best-seller  .hover-wrap:hover .hover-info{
-    opacity: 1;
-}
-
-#content .best-seller  .hover-wrap .hover-info ul{
-    line-height: 2.5;
-    text-align: center;
-}
-
-#content .best-seller  .hover-wrap .hover-info ul li{
-    float: left;
-    display: inline-block;
-}
-
-#content .best-seller  .hover-wrap .hover-info ul li button{
-    color: #8a8a8a;
-    text-decoration: none;
-    transition: 0.5s all;
-    border: none;
-    outline: none; 
-}
-
-#content .best-seller  .hover-wrap .hover-info ul li button.red{
-    color: #ff6060;
-}
-
-#content .best-seller  .hover-wrap .hover-info ul li a:hover{
-    color: #ff6060;
-}
-
-#content .best-seller  .hover-wrap .hover-info ul li.add-to-cart{
-    width: 33.33%;
-    background-color: white;
-}
-
-#content .best-seller  .hover-wrap .hover-info ul li.like,#content .best-seller  .hover-wrap .hover-info ul li.detail{
-    width: 33.33%;
-    background-color: white;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #content .best-seller .picture .rating{
@@ -1237,10 +1237,12 @@ margin-bottom: 20px;
 
 #content .best-seller .info{
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #content .best-seller .info .price{
     font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #content .brands{
@@ -1257,6 +1259,8 @@ margin-bottom: 20px;
     margin-bottom: 30px;
     font-size: 26px;
     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #3a3a3a;
 }
 
 #content .brands .title span{
@@ -1268,6 +1272,8 @@ margin-bottom: 20px;
 
 #content .brands .slick-slide .brand .row a{
     align-content: center;
+    border: none;
+    outline: none;
 }
 
 
@@ -1313,6 +1319,7 @@ margin-bottom: 20px;
 
 #footer .up .info{
     padding: 50px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #footer .up .info .info-left .logo{
@@ -1444,6 +1451,7 @@ margin-bottom: 20px;
 
 #footer .bottom{
     padding: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #footer .bottom .copyright p{
@@ -1457,16 +1465,6 @@ margin-bottom: 20px;
     margin-left: 5px;
     font-weight: 700;
     font-size: 14px;
-}
-
-#footer .bottom .pay-method ul{
-    width: 250px;
-    margin: 0 auto;
-}
-
-#footer .bottom .pay-method ul li{
-    float: left;
-    margin: 0 5px;
 }
 
 #go-top{
@@ -1557,6 +1555,7 @@ margin-bottom: 20px;
     width: 300px;
     margin-bottom: 20px;
     padding-top: 35px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #promote .holder .subtitle{
@@ -1564,6 +1563,7 @@ margin-bottom: 20px;
     color: #757575;
     z-index: 10;
     margin-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #promote .holder .subtitle span{
@@ -1573,6 +1573,7 @@ margin-bottom: 20px;
 
 #promote .holder input[type=email]{
     border-radius: 17px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #promote .holder .newsletter-form button{
@@ -1583,6 +1584,7 @@ margin-bottom: 20px;
     margin-top: 10px;
     padding: 5px 12px;
     transition: 0.5s all;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #promote .holder .newsletter-form button:hover{
@@ -1622,7 +1624,7 @@ margin-bottom: 20px;
 @media (min-width:375px){
     #content .frame-up .bag .bag-intro .price{
         top: 230px;
-        right: 30px;
+        right: 21px;
     }
     #content .frame-up .bag .bag-intro .shop-now{
         bottom: 30px;
@@ -1710,6 +1712,7 @@ margin-bottom: 20px;
     }
     #header .bottom-bar .cart{
         width: 136px;
+        font-family: 'Montserrat', sans-serif;
     }
     #header .bottom-bar .cart .title{
         margin: 0px;
@@ -1727,16 +1730,16 @@ margin-bottom: 20px;
         font-size: 12px;
     }
     #content .frame-up .new{
-        width: 472px;
-    float: left;
-    margin:0 11px 20px;
+        width: 484px;
+        float: left;
+        margin:0 11px 20px;
     }
     #content .frame-up .new .new-intro .text{
         top: 100px;
-        left: 80px;
+        left: 55px;
     }
     #content .frame-up .sofa{
-        width: 221px;
+        width: 227px;
         float: left;
         margin:0 11px 20px;
     }
@@ -1765,7 +1768,7 @@ margin-bottom: 20px;
     }
     #content .frame-up .bag{
         float: left;
-    width: 343px;
+    width: 353px;
     margin:0 11px 20px;
     }
     #content .frame-up .bag .bag-intro .shop-now{
@@ -1773,17 +1776,17 @@ margin-bottom: 20px;
     }
     #content .frame-up .chair{
         float: left;
-        width: 350px;
+        width: 359px;
         margin:0 11px 20px;
     }
     #content .frame-down .lg-left .doing{
         float: left;
-    width: 416px;
+    width: 428px;
     margin: 0 11px 20px;
     }
     #content .frame-down .lg-left .lamp{
         float: left;
-        width: 278px;
+        width: 285px;
         margin: 0 11px 20px;
     }
     #content .frame-down .lg-right .fabric .fabric-intro .title{
@@ -1805,6 +1808,12 @@ margin-bottom: 20px;
         margin: 0 11px;
         height: 400px;
     }
+    #content .products .tab-nav ul li a{
+        font-size: 18px;
+    }
+    #content .products .tab-content .slick-prev, #content .products .tab-content .slick-next{
+        top: -48px;
+    }
     #content .other-goods{
         margin: 0 11px 30px;
     }
@@ -1820,9 +1829,7 @@ margin-bottom: 20px;
     }
     #footer .bottom .pay-method{
         float: right;
-    }
-    #footer .bottom .pay-method ul li{
-        line-height: 41px;
+        width: 265px;
     }
 }
 
@@ -1842,6 +1849,7 @@ margin-bottom: 20px;
         left: 170px;
         width: 62%;
         overflow: initial;
+        font-family: 'Montserrat', sans-serif;
     }
     #header .bottom-bar .nav .lg-nav-ul>li{
         float: left;
@@ -1852,7 +1860,7 @@ margin-bottom: 20px;
     }
     #header .bottom-bar .nav ul li{
         padding: 0;
-        margin: 15px;
+        margin: 13px;
     }
     #header .bottom-bar .nav .drop{
         position: absolute;
@@ -1864,7 +1872,7 @@ margin-bottom: 20px;
         border: 1px solid #cbcbcb;
     }
     #header .bottom-bar .nav .blog .drop ul{
-        width: 210px;
+        width: 257px;
     }
     #header .bottom-bar .nav .sub-drop ul{
         border: none;
@@ -1894,19 +1902,16 @@ margin-bottom: 20px;
         display: block;
         width: 25%;
         float: left;
+        position: relative;
+        margin-bottom: 20px;
+        top: 28px;
+        width: 100%;
     }
 
     #header .bottom-bar .nav .drop .item-wrap{
         float: left;
         width: 25%;
         padding-right: 20px;
-    }
-
-    #header .bottom-bar .nav .drop .chair{
-        position: relative;
-        margin-bottom: 20px;
-        top: 50px;
-        width: 100%;
     }
     
     #header .bottom-bar .nav .drop .chair .chair-intro{
@@ -2080,7 +2085,7 @@ margin-bottom: 20px;
     }
     #content .frame-down .lg-right{
         float: left;
-        width: 617px;
+        width: 626px;
     }
     #content .frame-down .lg-right .slick-slide img{
         width: 655px;
@@ -2153,7 +2158,7 @@ margin-bottom: 20px;
         width: 434px;
     }
     #content .frame-down .lg-right{
-        width: 704px;
+        width: 712px;
     }
     #content .frame-down .lg-left .doing{
         width: 430px;
@@ -2170,5 +2175,11 @@ margin-bottom: 20px;
     }
     #content .frame-down .lg-left .lamp .lamp-intro .shop-now{
         top:293px;
+    }
+    #content .products{
+        margin-bottom: 55px;
+    }
+    #promote .holder .picture{
+        right: 60px;
     }
 }

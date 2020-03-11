@@ -4,6 +4,7 @@
 
 #content .slider{
     padding: 82px 0 40px;
+    background-image: url(/Users/muchen/Desktop/作品/img/blog/list-full-width/img11.jpg);
 }
 
 #content .masonry{
@@ -25,6 +26,7 @@
 #content .row.bottom .left-content .blog-post{
     position: relative;
     padding: 0px;
+    margin-bottom: 100px;
 }
 
 #content .row.bottom .left-content .blog-post .title{
@@ -163,6 +165,9 @@
     }
     #content .row.bottom .left-content .blog-post .date{
         top: 252px;
+    }
+    #content .row.bottom .left-content .blog-post{
+        margin-bottom: 50px;
     }
 }
 

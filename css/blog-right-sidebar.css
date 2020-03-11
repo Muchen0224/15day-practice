@@ -1,6 +1,7 @@
 #content .slider{
     margin-bottom: 50px;
     padding: 65px 0 15px;
+    background-image: url(/Users/muchen/Desktop/作品/img/blog/list-full-width/img11.jpg);
 }
 
 #content .slider .title{
@@ -358,6 +359,12 @@
 
 #footer .up .info .information .phone a:hover,#footer .up .info .information .email a:hover{
     color: #ff6060;
+}
+
+#footer .bottom .pay-method img{
+    width: 236px;
+    display: block;
+    margin: 0 auto;
 }
 
 @media(min-width:768px){

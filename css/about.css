@@ -89,6 +89,7 @@
 #header .bottom-bar .cart-with-number .drop .holder{
     background-color: white;
     padding: 20px 7px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #header .bottom-bar .cart-with-number .drop .holder .item{
@@ -110,6 +111,7 @@
 
 #header .bottom-bar .cart-with-number .drop .holder .item-info .price{
     color: #010101;
+    font-weight: 600;
 }
 
 #header .bottom-bar .cart-with-number .drop .holder .item-info .qty{
@@ -338,6 +340,8 @@
     color: white;
     font-weight: 300;
     font-size: 14px;
+    border: none;
+    outline: none; 
 }
 
 .side-menu .or-divider{
@@ -383,9 +387,9 @@
 }
 
 #content .slider{
-    background-image: url(https://fakeimg.pl/1440x381/);
+    background-image: url("/Users/muchen/Desktop/作品/img/about/img43.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 45% 50%;
     padding: 40px 0 20px;
     text-align: center;
     color: #383838;
@@ -499,6 +503,8 @@
 
 #content .our-team .hover-wrap:hover .hover-info{
     opacity: 1;
+    transform: none;
+    width: 100%;
 }
 
 #content .our-team .hover-wrap .hover-info ul{
@@ -522,6 +528,9 @@
     line-height: 30px;
     text-decoration: none;
     color: white;
+    transition: 0.5s all;
+    position: relative;
+    top: -4px;
 }
 
 #content .our-team .hover-wrap .hover-info ul li a:hover{
