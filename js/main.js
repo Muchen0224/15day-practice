@@ -400,4 +400,21 @@ $(document).ready(function(e){
         e.preventDefault();
         $(this).closest('.click-show').removeClass('active');
     });
+
+    //shopping-cart
+    //language
+
+    $('.top-bar .log-lang .lang a.drop-link').click(function(e){
+        let w=$(window).width();
+        if(w<1024){
+            e.preventDefault();
+            $(e.currentTarget).focus().siblings('.drop-content').toggleClass('active');
+        }
+    });
+    $('.top-bar .log-lang .lang a.drop-link').blur(function(e){
+        let w=$(window).width();
+        if(w<1024){
+            $(e.currentTarget).siblings('.drop-content').removeClass('active');
+        }
+    });
 });

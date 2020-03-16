@@ -98,6 +98,16 @@ button{
     margin-left: 5px;
 }
 
+#header .bottom-bar .cart a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+#header .bottom-bar .cart a:hover{
+    color:#ff6060;
+}
+
 #header .bottom-bar .cart span{
     position: absolute;
     top: 2px;
@@ -111,6 +121,16 @@ button{
 
 #header .bottom-bar .cart .title,#header .bottom-bar .cart .vol,#header .bottom-bar .cart .total-price{
     display: none;
+}
+
+#header .bottom-bar .cart .title{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s all;
+}
+
+#header .bottom-bar .cart .title:hover{
+    color: #ff6060;
 }
 
 #header .bottom-bar .list{
@@ -1711,7 +1731,7 @@ margin-bottom: 20px;
         display: block;
     }
     #header .bottom-bar .cart{
-        width: 136px;
+        width: 150px;
         font-family: 'Montserrat', sans-serif;
     }
     #header .bottom-bar .cart .title{
@@ -1720,13 +1740,13 @@ margin-bottom: 20px;
         font-weight: 700;
     }
     #header .bottom-bar .cart .vol{
-        top: 36px;
-    left: 40px;
-    font-size: 12px;
+        top: 22px;
+        left: 40px;
+        font-size: 12px;
     }
     #header .bottom-bar .cart .total-price{
-        top: 36px;
-        left: 85px;
+        top: 23px;
+        left: 90px;
         font-size: 12px;
     }
     #content .frame-up .new{

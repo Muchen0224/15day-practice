@@ -1,0 +1,443 @@
+.top-bar{
+    position: absolute;
+    background: transparent;
+    text-align: center;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.top-bar .xs-hide{
+    display: none;
+}
+
+.top-bar .log-lang{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 5px;
+}
+
+.top-bar .log-lang span.login{
+    color: white;
+    border-left: 1px solid #808080;
+    padding:0px 14px;
+    font-weight: 300;
+}
+
+.top-bar .log-lang span.login a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s all;
+}
+
+.top-bar .log-lang span.login a:hover{
+    color: #ff6060;
+}
+
+.top-bar .log-lang span.lang{
+    position: relative;
+    margin-right: 15px;
+} 
+
+.top-bar .log-lang span.lang a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.top-bar .log-lang span.lang:hover>a{
+    color: #ff6060;
+}
+
+.top-bar .log-lang span.lang a i{
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.top-bar .log-lang span.lang .drop-content{
+    width: 100px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background: #3d3d3d;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.top-bar .log-lang span.lang:hover .drop-content{
+    opacity: 1;
+    visibility: visible;
+}
+
+.top-bar .log-lang span.lang .drop-content.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.top-bar .log-lang span.lang:hover .drop-content a:hover{
+    color: #ff6060;
+}
+
+#header{
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    top: 45px;
+}
+
+#content .slider{
+    padding: 205px 0 20px;
+    background-image: url(/Users/muchen/Desktop/作品/img/shopping-cart/img-76.jpg);
+}
+
+#content .slider .title{
+    color: white;
+}
+
+#content .slider .path{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+
+#content .slider .path a{
+    color: white;
+}
+
+#content .process{
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 80px;
+    color: #9f9f9f;
+}
+
+#content .process .row>div{
+    margin-bottom: 30px;
+}
+
+#content .process .row .count{
+    width: 86px;
+    height: 86px;
+    margin: 0 auto;
+    border: 1px solid #9f9f9f;
+    border-radius: 43px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#content .process .row .title{
+    font-weight: 700;
+}
+
+#content .process .row .active .count{
+    color: #000;
+    border-color: #000;
+}
+
+#content .process .row .active .title{
+    color: #000;
+}
+
+#content .xs-title{
+    font-size: 20px;
+    color: #868686;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 15px;
+}
+
+#content .md-title{
+    display: none;
+}
+
+#content .selected-product .select-detail{
+    margin-bottom: 20px;
+}
+
+#content .selected-product .left{
+    padding-top: 10px;
+}
+
+#content .selected-product .right{
+    color: #757575;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 0px;
+}
+
+#content .selected-product .right .name{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#content .selected-product .right .price{
+    font-size: 14px;
+    font-weight: 700;
+    color: #494949;
+}
+
+#content .selected-product .right .quantity select{
+    background: #eee;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 3px;
+}
+
+#content .selected-product .right .total .t-price{
+    color: #494949;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#content .selected-product .right .total .close{
+    position: absolute;
+    right: 0;
+    top: -40px;
+    font-size: 17px;
+}
+
+#content .selected-product .right .total .close a{
+    text-decoration: none;
+    color: #ff6060;
+    transition: 0.5s all;
+    text-decoration: none;
+}
+
+#content .selected-product .right .total .close a:hover{
+    color: black;
+}
+
+#content .coupon{
+    font-family: 'Montserrat', sans-serif;
+    padding: 35px 0px;
+}
+
+#content .coupon input{
+    outline: none;
+    border: 1px solid #dcdcdc;
+    box-shadow: none;
+    height: 48px;
+    padding: 10px 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#content .coupon button{
+    background: #cba223;
+    color: white;
+    padding: 8px 19px;
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    transition: 0.5s all;
+    border: none;
+    outline: none;
+}
+
+#content .coupon button:hover{
+    background: #ff6060;
+}
+
+#content .add-ship-fee{
+    margin: 40px 0px;
+}
+
+#content .add-ship-fee .ship-fee{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+#content .add-ship-fee .ship-fee .title{
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#content .add-ship-fee .ship-fee .form-control{
+    height: 57px;
+    color: #7d7d7d;
+    border-color: #dcdcdc;
+    font-size: 14px;
+    box-shadow: none;
+}
+
+#content .add-ship-fee .ship-fee .update{
+    background: #f6f6f6;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    transition: 0.5s all;
+}
+
+#content .add-ship-fee .ship-fee .update:hover{
+    background: #88bd6e;
+    color: white;
+}
+
+#content .add-ship-fee .cart-total>.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+#content .add-ship-fee .cart-total .cart-detail{
+    border: 1px solid #dcdcdc;
+    padding: 51px 25px 41px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#content .add-ship-fee .cart-total .cart-detail li{
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 6px;
+}
+
+#content .add-ship-fee .cart-total .cart-detail li:last-child{
+    border: none;
+}
+
+#content .add-ship-fee .cart-total .cart-detail li .title{
+    color: #868686;
+    font-size: 16px;
+    font-weight: 700;
+    float: left;
+}
+
+#content .add-ship-fee .cart-total .cart-detail li .price{
+    color: #494949;
+    font-size: 21px;
+    font-weight: 700;
+    float: right;
+}
+
+#content .add-ship-fee .cart-total .checkout{
+    background: #88bd6e;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    float: right;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    transition: 0.5s all;
+}
+
+#content .add-ship-fee .cart-total .checkout:hover{
+    background: #f6f6f6;
+    color: #494949;
+}
+
+@media(min-width:425px){
+    #content .selected-product .right{
+        padding-top: 15px;
+    }
+    #content .selected-product .right .name{
+        font-size: 18px;
+    }
+    #content .selected-product .right .price{
+        font-size: 18px;
+    }
+    #content .selected-product .right .total .t-price{
+        font-size: 18px;
+    }
+}
+
+@media(min-width:768px){
+    #header{
+        margin-left: 20px;
+    }
+    #header .bottom-bar .list{
+        margin-right: 10px;
+    }
+    .top-bar .xs-hide{
+        display: block;
+        padding-top: 5px;
+    }
+    .top-bar .xs-hide label{
+        color: white;
+        float: left;
+        margin: 0px;
+        position: relative;
+        top: 3px;
+    }
+    .top-bar .xs-hide a{
+        color: white;
+        text-decoration: none;
+        float: left;
+    }
+    .top-bar .log-lang span.lang{
+        float: right;
+        margin-left: 15px;
+    }
+    .top-bar .log-lang span.login{
+        float: right;
+        border-left: none;
+        border-right: 1px solid #808080;
+    }
+    #content .process .row .bar:before{
+        content: "";
+        width: 80px;
+        height: 3px;
+        background: #eee;
+        position: absolute;
+        left: -40px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #content .process .row .bar:after{
+        content: "";
+        width: 80px;
+        height: 3px;
+        background: #eee;
+        position: absolute;
+        right: -40px;
+        bottom: 50%;
+        transform: translateY(-50%);    
+    }
+    #content .xs-title{
+        display: none;
+    }
+    #content .md-title{
+        display: block;
+        font-size: 16px;
+        color: #868686;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    #content .md-title .price{
+        padding-left: 72px;
+    }
+    #content .md-title .total{
+        padding-left: 32px;
+    }
+    #content .selected-product .right .total .close{
+        right: 12px;
+        top: 6px;
+    }
+    #content .selected-product .right .md-hide{
+        display: none;
+    }
+}
+
+@media(min-width:1024px){
+    #header .bottom-bar .nav{
+        right: 156px;
+    }
+    .top-bar .log-lang span.lang a:hover + .drop-content{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+
+

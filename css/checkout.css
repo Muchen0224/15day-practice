@@ -1,0 +1,335 @@
+#content .bill-detail{
+    padding: 0 15px;
+}
+
+#content .bill-detail .title{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#content .bill-detail form .form-grop{
+
+}
+
+#content .bill-detail form .form-grop .form-control{
+    color: #7d7d7d;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 18px;
+    width: 100%;
+    background: none;
+    border: 1px solid #dcdcdc;
+    border-radius: 13px;
+    margin-bottom: 15px;
+    box-shadow: none;
+}
+
+#content .bill-detail form .form-grop.name .col-6{
+    padding: 0px;
+}
+
+#content .bill-detail form .form-grop.address textarea{
+    min-height: 99px;
+}
+
+#content .bill-detail form .form-grop.ship-address{
+    position: relative;
+}
+
+#content .bill-detail form .form-grop.ship-address input{
+    position: absolute;
+    top: 7px;
+    opacity: 0;
+}
+
+#content .bill-detail form .form-grop.ship-address label{
+    padding-left: 23px;
+    font-size: 14px;
+    color: #868686;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#content .bill-detail form .form-grop.ship-address label::before{
+    content: "";
+    width: 11px;
+    height:11px;
+    border: 1px solid #868686;
+    position: absolute;
+    left: 5px;
+    top: 8px;
+}
+
+#content .bill-detail form .form-grop.ship-address label:after{
+    content: '\e80d';
+    font-family: "fontello";
+    font-size: 5px;
+    position: absolute;
+    color: black;
+    left: 7px;
+    top: 4px;
+    display:none;
+}
+
+#content .bill-detail form .form-grop.ship-address input:checked + label:after{
+    display: inline-block;
+}
+
+#content .bill-detail form .form-grop.note textarea{
+    min-height: 99px;
+}
+
+#content .order-check{
+    padding: 0 15px;
+    margin-bottom: 60px;
+}
+
+#content .order-check .holder{
+    padding: 51px 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #f6f6f6;
+}
+
+#content .order-check .holder .title{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+}
+
+#content .order-check .holder ul{
+    margin-bottom: 60px;
+}
+
+#content .order-check .holder ul li{
+    margin: 0 0 10px;
+    padding: 0 0 9px;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #cccccc;
+}
+
+#content .order-check .holder ul li .pull-left{
+    font-size: 14px;
+    color: #868686;
+    font-weight: 700;
+}
+
+#content .order-check .holder ul li .text-wrap.pull-left .title{
+    color: #868686;
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+
+#content .order-check .holder ul li .text-wrap.pull-left span{
+    display: block;
+}
+
+#content .order-check .holder ul li .text-wrap.pull-right{
+    font-size: 16px;
+}
+
+#content .order-check .holder ul li .title{
+    color: #868686;
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+
+#content .order-check .holder ul li .pull-right span{
+    display: block;
+    color: #494949;
+    font-weight: 700;
+}
+
+#content .order-check .holder ul li.cart .title{
+    margin-bottom: 0px;
+}
+
+#content .order-check .holder ul li.cart span{
+    font-weight: 600;
+}
+
+#content .order-check .holder ul li.shipping .title{
+    margin-bottom: 0px;
+}
+
+#content .order-check .holder ul li.shipping span{
+    font-weight: 600;
+    color: #494949;
+}
+
+#content .order-check .holder ul li.order-total .title{
+    margin-bottom: 0px;
+}
+
+#content .order-check .holder ul li.order-total span{
+    font-weight: 600;
+}
+
+#content .order-check .holder .panel-grop{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#content .order-check .holder .panel-grop .panel{
+    margin-bottom: 20px;
+}
+
+#content .order-check .holder .panel-grop .panel-head{
+    position:relative;
+}
+
+#content .order-check .holder .panel-grop .panel-head label{
+    color: #868686;
+    font-weight: 700;
+}
+
+#content .order-check .holder .panel-grop .panel-head label:before{
+    content: "";
+    width: 17px;
+    height:17px;
+    border: 1px solid #868686;
+    position: absolute;
+    right: 8px;
+    top: 6px;
+}
+
+#content .order-check .holder .panel-grop .panel-head label:after{
+    content: '\e80d';
+    font-family: "fontello";
+    font-size: 15px;
+    position: absolute;
+    color: #494949;
+    right: 11px;
+    top: 3px;
+    display:none;
+}
+
+#content .order-check .holder .panel-grop .panel-head input{
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    opacity: 0;
+}
+
+#content .order-check .holder .panel-grop .panel-head input:checked + label:after{
+    display: inline-block;
+}
+
+#content .order-check .holder .panel-grop .panel-content{
+    font-size: 12px;
+    color: #868686;
+    font-weight: 300;
+    /* display:none; */
+}
+
+#content .order-check .confirm{
+    padding: 0 15px;
+    position: relative;
+}
+
+#content .order-check .confirm input{
+    position: absolute;
+    right: 26px;
+    top: 7px;
+    opacity: 0;
+}
+
+#content .order-check .confirm label{
+    font-size: 16px;
+    color: #868686;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#content .order-check .confirm label a{
+    text-decoration: none;
+    color: black;
+}
+
+#content .order-check .confirm label:after{
+    content: '\e80d';
+    font-family: "fontello";
+    font-size: 15px;
+    position: absolute;
+    color: #494949;
+    right: 27px;
+    top: 2px;
+    display: none;
+}
+
+#content .order-check .confirm label:before{
+    content: "";
+    width: 17px;
+    height:17px;
+    border: 1px solid #868686;
+    position: absolute;
+    right: 25px;
+    top: 5px;
+}
+
+#content .order-check .confirm input:checked + label::after{
+    display: inline-block;
+}
+
+#content .order-check button{
+    background: #88bd6e;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    float: right;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    transition: 0.5s all;
+}
+
+#content .order-check button:hover{
+    background: #f6f6f6;
+    color: #494949;
+}
+
+#content .characteristic{
+    padding: 0 15px;
+    margin-bottom: 40px;
+}
+
+#content .characteristic .row .col-12 .char-wrap{
+    position: relative;
+    color: #868686;
+    margin-bottom: 25px;
+}
+
+#content .characteristic .row .col-12 .char-wrap .icon{
+    position: absolute;
+    font-size: 30px;
+}
+
+#content .characteristic .row .col-12 .char-wrap .wrap-right{
+    padding-left: 50px;
+}
+
+#content .characteristic .row .col-12 .char-wrap .wrap-right .title{
+    font-size: 14px;
+    color: #404040;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#content .characteristic .row .col-12 .char-wrap .wrap-right .subtitle{
+    font-size: 12px;
+    color: #646464;
+    letter-spacing: 1px;
+}
+
+@media(min-width:480px){
+    #content .product{
+        height: auto;
+    }
+}
+
+@media(min-width:768px){
+    #content .order-check{
+        margin-top: 28px;
+    }
+}

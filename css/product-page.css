@@ -371,12 +371,14 @@
 
 #content .right-content .row .product{
     margin-bottom: 60px;
-    background: #f8f8f8;
-    padding: 0px;
 }
 
 #content .right-content .row .product .picture ul.rating{
     margin-left: 15px;
+}
+
+#content .right-content .row .product .picture a{
+    display: block;
 }
 
 #content .right-content .row .product .picture ul.rating li{
