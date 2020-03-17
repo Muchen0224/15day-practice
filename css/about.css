@@ -109,6 +109,17 @@
     font-weight: 500;
 }
 
+#header .bottom-bar .cart-with-number .drop .holder .item-info .name a{
+    font-size: 14px;
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+#header .bottom-bar .cart-with-number .drop .holder .item-info .name a:hover{
+    color: #ff6060;
+}
+
 #header .bottom-bar .cart-with-number .drop .holder .item-info .price{
     color: #010101;
     font-weight: 600;
@@ -122,6 +133,7 @@
     position: absolute;
     right: -8px;
     top: -6px;
+    transition: 0.5s all;
 }
 
 #header .bottom-bar .cart-with-number .drop .close button{
@@ -132,6 +144,10 @@
 #header .bottom-bar .cart-with-number .drop .close i{
     font-size: 16px;
     color: #ff6060;
+}
+
+#header .bottom-bar .cart-with-number .drop .close button:hover i{
+    color: black;
 }
 
 #header .bottom-bar .cart-with-number .drop .row{
@@ -398,7 +414,7 @@
 }
 
 #content .slider{
-    background-image: url("/Users/muchen/Desktop/作品/img/about/img43.jpg");
+    background-image: url("https://Muchen0224.github.io/15day-practice/img/about/img43.jpg");
     background-repeat: no-repeat;
     background-position: 45% 50%;
     padding: 40px 0 20px;

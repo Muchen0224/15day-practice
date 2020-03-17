@@ -170,6 +170,16 @@
     font-weight: 700;
 }
 
+#content .selected-product .right .name a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+#content .selected-product .right .name a:hover{
+    color: #ff6060;
+}
+
 #content .selected-product .right .price{
     font-size: 14px;
     font-weight: 700;
