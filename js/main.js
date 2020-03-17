@@ -271,6 +271,10 @@ $(document).ready(function(e){
         $(e.currentTarget).siblings('.drop').removeClass('show');
     });
 
+    $('#header .bottom-bar .cart-with-number .drop .close button').on('click',function(e){
+        $(this).closest('.item').remove();
+    });
+
     //side-bar
     $('.side-open-link').click(function(e){
         $('.side-control').toggleClass('active');
@@ -416,5 +420,11 @@ $(document).ready(function(e){
         if(w<1024){
             $(e.currentTarget).siblings('.drop-content').removeClass('active');
         }
+    });
+
+    //delete selected item
+    $('#content .selected-product .right .total .close a').on('click',function(e){
+        e.preventDefault();
+        $(this).closest('.select-detail').remove();
     });
 });
