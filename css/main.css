@@ -318,6 +318,7 @@ button{
 #header .bottom-bar .nav ul li .drop li a{
     font-size: 12px;
     letter-spacing: none;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #content .col-12{
